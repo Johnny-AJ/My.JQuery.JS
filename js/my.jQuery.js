@@ -55,21 +55,21 @@
     }
 
     // 实现清除removeClass功能
-    Init.prototype.removeClass = function (className) {
-        // 循环遍历伪数组
-        for (let i = 0; i < this.length; i++) {
-            this[i].classList.remove(className);
-        }
-        return this;
-    }
+    // Init.prototype.removeClass = function (className) {
+    //     // 循环遍历伪数组
+    //     for (let i = 0; i < this.length; i++) {
+    //         this[i].classList.remove(className);
+    //     }
+    //     return this;
+    // }
 
-    // 实现切换toggle功能
-    Init.prototype.toggleClass = function () {
-        // 循环遍历伪数组
-        for (let i = 0; i < this.length; i++) {
-            this[i].classList.toggle(className);
-        }
-    }
+    // // 实现切换toggle功能
+    // Init.prototype.toggleClass = function () {
+    //     // 循环遍历伪数组
+    //     for (let i = 0; i < this.length; i++) {
+    //         this[i].classList.toggle(className);
+    //     }
+    // }
 
 
 }());
@@ -77,10 +77,10 @@
 
 let box = $('.box');
 
-box.css('width', 400);
-box.css('height', 400);
-box.css('backgroundColor', 'blue');
+// box.css('width', 400);
+// box.css('height', 400);
+// box.css('backgroundColor', 'blue');
 
 box.addClass('a');
 // box.removeClass('a');
-box.toggleClass('a');
+// box.toggleClass('a');
