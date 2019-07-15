@@ -71,12 +71,16 @@
         }
     }
 
-    
+
 }());
 
 
 let box = $('.box');
 
-box.css('width', 200);
-box.css('height', 200);
+box.css('width', 400);
+box.css('height', 400);
 box.css('backgroundColor', 'blue');
+
+box.addClass('a');
+// box.removeClass('a');
+box.toggleClass('a');
